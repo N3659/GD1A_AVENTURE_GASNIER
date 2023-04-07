@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" /><title>Zelda Like
+    </title>
+    <script
+src="//cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+    <style type="text/css"> body { margin: 0; }</style>
+</head>
+<body>
+<script type="text/javascript">
+
+
+
+    //constructeur de scène
+class SceneStart extends Phaser.Scene{
+    constructor(){
+        super("SceneStart");
+        console.log("siu")
+
+    }
+
+    preload(){
+
+        console.log("siu")
+
+        //on charge le tileset et la première zone
+        this.load.image("tileset", "Level_Design/Tiled/Tileset/tileset_final.png");
+        this.load.tilemapTiledJSON("SceneDepart", "Level_Design/Tiled/Start.json");
+
+        console.log("siu")
+
+        this.load.spritesheet('marche_perso','Sprites/Perso/Sprite_marche_perso-Sheet.png',
+        { frameWidth: 32, frameHeight: 32 });
+
+        this.load.spritesheet('item_perso','Sprites/Perso/sprite_item_perso-Sheet.png',
+        { frameWidth: 32, frameHeight: 32 });
+
+        this.load.spritesheet('idle_perso','Sprites/Perso/Sprite_perso.png',
+        { frameWidth: 32, frameHeight: 32 });
+
+        this.load.spritesheet('atk_perso','Sprites/Perso/Sprite_perso_attak_sheett.png',
+        { frameWidth: 32, frameHeight: 32 });
+
+        this.load.spritesheet('shield_block','Sprites/Perso/Sprite_shield_block_perso-Sheet.png',
+        { frameWidth: 32, frameHeight: 32 });
+
+        this.load.tilemapTiledJSON("start_map", "Level_Design/Tiled/Start.json")
+        
+        //chargement des sprites des ennemis
+
+        this.load.image('UI', 'Sprites/UI-Sheet.png',
+        { frameWidth: 32, frameHeight: 32 });
+
+        //FIN DE CHARGEMENT DES SPRITES
+
+        // chargement tileset
+
+
+    }
+    create (){
+
+        console.log("siu")
+        //on crée et initialise les inputs de clavier
+        this.cursors = this.input.keyboard.createCursorKeys();
+        this.clavier = this.input.keyboard.addKeys('Q,D,Z,D');
+
+        this.player = this.physics.add.sprite(0,0, "marche_perso");
+
+        this.anims.create({
+        key: 'right',
+        frames: this.anims.generateFrameNumbers('marche_perso', {start:0,end:3}),
+        frameRate: 20,
+        repeat: -1
+        });
+
+        this.anims.create({
+        key: 'left',
+        frames: this.anims.generateFrameNumbers('marche_perso', {start:0,end:3}),
+        frameRate: 20,
+        repeat: -1
+        });
+
+        this.anims.create({
+        key: 'up',
+        frames: this.anims.generateFrameNumbers('marche_perso', {start:0,end:3}),
+        frameRate: 20,
+        repeat: -1
+        });
+
+        this.anims.create({
+        key: 'down',
+        frames: this.anims.generateFrameNumbers('marche_perso', {start:0,end:3}),
+        frameRate: 20,
+        repeat: -1
+        });
+        //on load les animations et on les assigne a un certain input
+        const level_map = this.add.tilemap("start_map");
+        const tileset = level_map.addTilesetImage(
+            "tileset", // id du code
+            "tileset_final" // id de tiled
+        );
+        this.layer1 = level_map.createLayer(
+            "Zone_Start",
+            tileset
+        )
+        //on charge la map
+    }
+
+    update (){
+
+            console.log("siu")
+
+        if (cursors.left.isDown || clavier.Q.isDown){ //si la touche gauche est appuyée
+            this.player.setVelocityX(200); //alors vitesse négative en X
+            player.anims.play('marche_perso', true);
+        }
+
+        else if (cursors.right.isDown || clavier.D.isDown){ //sinon si la touche droite est appuyée
+            player.setVelocityX(200); //alors vitesse positive en X
+            player.anims.play('marche_perso', true);
+        }
+
+        else if (cursors.down.isDown || clavier.S.isDown){
+        //si touche bas appuyée
+            player.setVelocityY(200); 
+            player.anims.play('marche_perso', true);
+        }
+
+        else if (cursor.up.idDown || clavier.Z.isDown){
+            player.setVelocityY(-200);
+            player.anims.play('marche_perso', true);
+        }
+
+        else{
+            player.setVelocityX(0)//sinon le joueur s'arrête
+            player.anims.stop();//l'animation s'arrête
+        }
+        //on check si les inputs de mouvement sont entrés
+    }
+
+};
+
+
+var config = {
+    type: Phaser.AUTO,
+    width: 960, height: 960,
+    physics: {
+        default: 'arcade',
+        arcade: {
+            gravity: { y: 0 },
+            debug: false
+        },
+        scene: [ SceneStart ]
+    },
+};  
+
+new Phaser.Game(config);
+
+</script>
+</body>
+</html>
