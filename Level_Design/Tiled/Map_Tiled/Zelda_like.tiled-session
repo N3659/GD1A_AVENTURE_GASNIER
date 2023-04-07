@@ -1,0 +1,109 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "tileset.tsx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "Foret_PlaceHolder.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 400,
+                "y": 241
+            }
+        },
+        "Grotte_Ext_PlaceHolder.tmx": {
+            "scale": 1.2587499999999998,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 399.6027805362463,
+                "y": 240.71499503475673
+            }
+        },
+        "Grotte_Int_PlaceHolder.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 322,
+                "y": 240
+            }
+        },
+        "Maison_Int_PlaceHolder.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 272,
+                "y": 208
+            }
+        },
+        "PlaceHolder.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "PlaceHolder_2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Plage_PlaceHolder.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 400,
+                "y": 240
+            }
+        },
+        "Start_PlaceHolder.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 470.66666666666663,
+                "y": 840
+            }
+        },
+        "Valee_PlaceHolder.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 400,
+                "y": 240
+            }
+        },
+        "tileset.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "F:/ZELDA_LIKE/Level_Design/Tiled",
+    "map.height": 13,
+    "map.lastUsedFormat": "tmx",
+    "map.width": 17,
+    "openFiles": [
+        "Start_PlaceHolder.tmx",
+        "Plage_PlaceHolder.tmx",
+        "Valee_PlaceHolder.tmx",
+        "Foret_PlaceHolder.tmx",
+        "Grotte_Ext_PlaceHolder.tmx",
+        "Grotte_Int_PlaceHolder.tmx",
+        "Maison_Int_PlaceHolder.tmx",
+        "tileset.tsx"
+    ],
+    "project": "Zelda_like.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "tileset.tsx",
+        "Start_PlaceHolder.tmx",
+        "Plage_PlaceHolder.tmx",
+        "Valee_PlaceHolder.tmx",
+        "Foret_PlaceHolder.tmx",
+        "Grotte_Ext_PlaceHolder.tmx",
+        "Grotte_Int_PlaceHolder.tmx",
+        "Maison_Int_PlaceHolder.tmx",
+        "PlaceHolder.tsx",
+        "PlaceHolder_2.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}

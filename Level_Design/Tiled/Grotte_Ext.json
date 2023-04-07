@@ -1,0 +1,299 @@
+{ "compressionlevel":-1,
+ "height":15,
+ "infinite":false,
+ "layers":[
+        {
+         "id":2,
+         "image":"..\/map_Grotte_Ext_RPGMaker.png",
+         "name":"Calque d'Images 1",
+         "opacity":1,
+         "type":"imagelayer",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 18, 18, 18, 18, 18, 18, 33, 18, 33, 18, 18, 18, 18, 18, 18, 18, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 18, 18, 18, 18, 18, 18, 33, 18, 33, 18, 18, 18, 18, 18, 18, 18, 18, 0, 0, 0, 0, 0,
+            0, 0, 0, 18, 18, 37, 37, 18, 18, 18, 18, 18, 19, 18, 18, 18, 33, 18, 18, 18, 18, 0, 0, 0, 0,
+            0, 0, 0, 18, 18, 33, 33, 18, 18, 18, 18, 18, 19, 18, 18, 18, 33, 18, 18, 18, 18, 0, 0, 0, 0,
+            0, 0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 19, 18, 37, 37, 18, 18, 0, 0, 0,
+            0, 0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 19, 19, 19, 17, 17, 18, 18, 0, 0, 0,
+            0, 0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 37, 37, 18, 33, 18, 19, 18, 18, 18, 18, 18, 18, 0, 0,
+            0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 33, 33, 33, 18, 18, 18, 18, 18, 18, 18, 18, 18, 0, 0,
+            0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 33, 18, 18, 37, 33, 18, 18, 18, 18, 18, 0, 0,
+            0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 33, 37, 37, 18, 18, 18, 18, 18, 0,
+            0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 33, 33, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 0,
+            0, 18, 18, 18, 33, 33, 18, 18, 18, 18, 18, 33, 33, 33, 33, 18, 18, 18, 18, 18, 18, 37, 18, 18, 0,
+            0, 0, 0, 18, 33, 33, 18, 18, 18, 18, 18, 18, 18, 33, 33, 18, 18, 18, 18, 18, 33, 33, 18, 18, 0,
+            0, 0, 0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 0],
+         "height":15,
+         "id":1,
+         "name":"Zone_Grotte_Ext",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":25,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 0, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42,
+            42, 42, 42, 0, 26, 25, 27, 0, 20, 0, 0, 0, 0, 0, 0, 26, 25, 27, 0, 42, 42, 42, 42, 42, 42,
+            42, 42, 42, 0, 25, 25, 25, 20, 0, 0, 41, 0, 0, 0, 20, 25, 25, 25, 0, 0, 42, 42, 42, 42, 42,
+            42, 42, 42, 0, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 39, 37, 40, 26, 27, 0, 42, 42, 42, 42,
+            42, 42, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 20, 0, 26, 25, 25, 27, 42, 42, 42, 42,
+            42, 42, 20, 0, 0, 20, 0, 0, 20, 0, 0, 0, 26, 27, 20, 0, 0, 39, 0, 0, 40, 0, 42, 42, 42,
+            42, 42, 0, 41, 0, 0, 20, 0, 20, 20, 26, 25, 25, 25, 25, 27, 0, 0, 33, 33, 0, 41, 42, 42, 42,
+            42, 42, 0, 0, 0, 0, 0, 0, 0, 20, 39, 0, 0, 41, 25, 25, 0, 0, 0, 20, 0, 0, 0, 42, 42,
+            42, 0, 0, 0, 20, 0, 0, 0, 20, 0, 0, 0, 0, 0, 40, 25, 25, 27, 0, 20, 0, 0, 0, 42, 42,
+            42, 0, 0, 0, 0, 20, 0, 0, 0, 0, 25, 0, 33, 0, 0, 39, 0, 25, 27, 0, 20, 0, 0, 42, 42,
+            42, 0, 0, 20, 0, 0, 20, 20, 20, 20, 25, 25, 25, 25, 27, 0, 0, 0, 0, 0, 20, 0, 0, 0, 42,
+            42, 0, 20, 0, 25, 0, 0, 0, 0, 0, 39, 25, 37, 25, 25, 0, 0, 0, 0, 0, 26, 25, 27, 20, 42,
+            42, 0, 20, 0, 25, 25, 25, 41, 0, 0, 0, 37, 0, 37, 25, 27, 0, 0, 41, 0, 39, 0, 40, 0, 42,
+            42, 42, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 40, 0, 0, 20, 0, 0, 0, 0, 0, 42,
+            42, 42, 42, 20, 20, 20, 20, 20, 20, 20, 20, 20, 0, 0, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 42],
+         "height":15,
+         "id":3,
+         "name":"couche2",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":25,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":4,
+ "nextobjectid":1,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.9.2",
+ "tileheight":32,
+ "tilesets":[
+        {
+         "columns":0,
+         "firstgid":1,
+         "margin":0,
+         "name":"PlaceHolder",
+         "spacing":0,
+         "tilecount":0,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":0,
+         "firstgid":5,
+         "margin":0,
+         "name":"PlaceHolder_2",
+         "spacing":0,
+         "tilecount":0,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":0,
+         "firstgid":5,
+         "margin":0,
+         "name":"tileset",
+         "spacing":0,
+         "tilecount":0,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":13,
+         "firstgid":18,
+         "image":"Tileset\/tileset_final.png",
+         "imageheight":64,
+         "imagewidth":416,
+         "margin":0,
+         "name":"tileset_final",
+         "properties":[
+                {
+                 "name":"estSolide",
+                 "type":"bool",
+                 "value":false
+                }],
+         "spacing":0,
+         "tilecount":26,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":2,
+                 "properties":[
+                        {
+                         "name":"estSolide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":4,
+                 "properties":[
+                        {
+                         "name":"estSolide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":5,
+                 "properties":[
+                        {
+                         "name":"estSolide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":6,
+                 "properties":[
+                        {
+                         "name":"estSolide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":7,
+                 "properties":[
+                        {
+                         "name":"estSolide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":8,
+                 "properties":[
+                        {
+                         "name":"estSolide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":9,
+                 "properties":[
+                        {
+                         "name":"estSolide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":12,
+                 "properties":[
+                        {
+                         "name":"estSolide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":13,
+                 "properties":[
+                        {
+                         "name":"estSolide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":14,
+                 "properties":[
+                        {
+                         "name":"estSolide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":15,
+                 "properties":[
+                        {
+                         "name":"estSolide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":17,
+                 "properties":[
+                        {
+                         "name":"estSolide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":18,
+                 "properties":[
+                        {
+                         "name":"estSolide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":19,
+                 "properties":[
+                        {
+                         "name":"estSolide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":20,
+                 "properties":[
+                        {
+                         "name":"estSolide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":21,
+                 "properties":[
+                        {
+                         "name":"estSolide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":22,
+                 "properties":[
+                        {
+                         "name":"estSolide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":24,
+                 "properties":[
+                        {
+                         "name":"estSolide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":25,
+                 "properties":[
+                        {
+                         "name":"estSolide",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":32
+        }],
+ "tilewidth":32,
+ "type":"map",
+ "version":"1.9",
+ "width":25
+}
