@@ -61,9 +61,19 @@ class SceneStart extends Phaser.Scene{
     create (){
 
         console.log("siu")
+        
+        const level = this.add.tilemap("start_map");
+        console.log("siu")
+        const tileset = this.level.addTilesetImage("tileset","tileset_final");
+        console.log("siu")
+        const calque_Jardin = this.level.createLayer("Zone_Start", tileset);
+        console.log("siu")
+        const calque_Sol = this.level.createLayer("couche2", tileset)
+        
+        console.log("siu")
         //on crée et initialise les inputs de clavier
         this.cursors = this.input.keyboard.createCursorKeys();
-        this.clavier = this.input.keyboard.addKeys('Q,D,Z,D');
+        this.clavier = this.input.keyboard.addKeys('Q,S,Z,D');
 
         this.player = this.physics.add.sprite(0,0, "marche_perso");
 
@@ -95,15 +105,8 @@ class SceneStart extends Phaser.Scene{
         repeat: -1
         });
         //on load les animations et on les assigne a un certain input
-        const level_map = this.add.tilemap("start_map");
-        const tileset = level_map.addTilesetImage(
-            "tileset", // id du code
-            "tileset_final" // id de tiled
-        );
-        this.layer1 = level_map.createLayer(
-            "Zone_Start",
-            tileset
-        )
+
+
         //on charge la map
     }
 
@@ -151,8 +154,8 @@ var config = {
             gravity: { y: 0 },
             debug: false
         },
-        scene: [ SceneStart ]
-    },
+        
+    },scene: [ SceneStart ]
 };  
 
 new Phaser.Game(config);
