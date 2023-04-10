@@ -46,7 +46,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":15,
          "id":3,
-         "name":"mobs",
+         "name":"couche2",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,

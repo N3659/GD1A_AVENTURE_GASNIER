@@ -36,7 +36,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":10,
          "id":2,
-         "name":"Calque de Tuiles 2",
+         "name":"couche2",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
