@@ -7,9 +7,6 @@
  <tileset firstgid="5" source="PlaceHolder_2.tsx"/>
  <tileset firstgid="5" source="tileset.tsx"/>
  <tileset firstgid="18" source="tileset_final.tsx"/>
- <imagelayer id="2" name="Calque d'Images 1">
-  <image source="../map_Forêt_RPGMaker.png" width="800" height="481"/>
- </imagelayer>
  <layer id="1" name="Zone_Foret" width="25" height="15">
   <data encoding="csv">
 37,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,
